@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE users [ 
+<!ELEMENT users (user+)>
+<!ELEMENT user (firstName*,lastName*,location*)>
+<!ELEMENT firstName (#PCDATA)>
+<!ELEMENT lastName (#PCDATA)>
+<!ELEMENT location (#PCDATA)>
+
+<!ATTLIST user id CDATA #REQUIRED>
+]>
 <users>
   <user id="111">
     <firstName>Chota</firstName>

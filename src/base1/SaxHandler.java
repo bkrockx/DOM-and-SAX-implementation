@@ -25,7 +25,7 @@ public class SaxHandler extends DefaultHandler{
 			break;
 		}
 	}
-	
+
 	@Override
 	public void endElement(String uri, String localName,String qName) throws SAXException {
 		if(qName.equalsIgnoreCase("user")){
@@ -41,6 +41,7 @@ public class SaxHandler extends DefaultHandler{
 			user.location = content;
 		}
 	}
+
 	
 	@Override
 	public void characters(char[] ch, int start, int length) throws SAXException {

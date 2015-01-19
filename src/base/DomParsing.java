@@ -23,7 +23,7 @@ public class DomParsing {
 		DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
 		DocumentBuilder builder = factory.newDocumentBuilder();
 		
-		Document document =builder.parse("User.xml");
+		Document document = builder.parse("User.xml");
 
 		
 		List<User> userList = new ArrayList<>();

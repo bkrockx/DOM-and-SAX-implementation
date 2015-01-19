@@ -24,6 +24,7 @@ public class SaxParser1 {
 		SaxHandler handler = new SaxHandler();
 		
 		parser.parse("User.xml",handler);
+
 		
 		for(User user1:handler.userList){
 			System.out.println(user1);
