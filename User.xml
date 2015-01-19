@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user id="111">
+    <firstName>Chota</firstName>
+    <lastName>Chetan</lastName>
+    <location>abudhabi</location>
+  </user>
+  <user id="112">
+    <firstName>Daud</firstName>
+    <lastName>Ibrahim</lastName>
+    <location>Abudhabi</location>
+  </user>
+  <user id="113">
+    <firstName>Sanjay</firstName>
+    <lastName>Dutt</lastName>
+    <location>Pune</location>
+  </user>
+</users>
