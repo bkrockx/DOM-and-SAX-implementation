@@ -5,6 +5,10 @@ xml parsing using DOM and SAX implementation
 
 -> package base1 contains code to parse xml using SAX. USER.xml is being parsed.
 
-update:->
+# update1:->
 
 -> validation of xml("User.xml) with DTD has been done in the package validation. The validation has been done using DOM and SAX.
+
+# update 2:->
+
+-> validation of xml against xsd has been added in validation package. Implementation code is in "XsdValidation.java" class.
