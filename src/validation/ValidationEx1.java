@@ -29,6 +29,7 @@ public class ValidationEx1 {
 			DocumentBuilder builder = factory.newDocumentBuilder();
 			
 			builder.setErrorHandler(new ErrorHandler(){
+				
 				public void warning(SAXParseException e) throws SAXException{
 					System.out.println("WARNING : " + e.getMessage());
 				}
@@ -42,6 +43,7 @@ public class ValidationEx1 {
 					System.out.println("FATAL : " + e.getMessage());
 		            throw e;
 				}
+				
 			});
 			
 			builder.parse(new InputSource(xml));

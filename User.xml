@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--  
 <!DOCTYPE users [
 <!ELEMENT users (user+)>
 <!ELEMENT user (firstName*,lastName*,location*)>
@@ -8,11 +9,12 @@
 
 <!ATTLIST user id CDATA #REQUIRED>
 ]>
+-->
 <users>
   <user id="111">
     <firstName>Chota</firstName>
     <lastName>Chetan</lastName>
-    <location>abudhabi</location>
+    <location1>abudhabi</location1>
   </user>
   <user id="112">
     <firstName>Daud</firstName>
