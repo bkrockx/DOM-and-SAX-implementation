@@ -15,6 +15,7 @@ xml parsing using DOM and SAX implementation
 
 # update 3:->
 
--> XSL implementation has been added. User.xsl has been created and code for trasformation has been added.
+-> XSL implementation has been added. User.xsl has been created and code for trasformation has been added. All this is done in 
+"transform1" package.
 
--> Implementation of xml traversing using XPath has been done.
+-> Implementation of xml traversing using XPath has been done. All this has been implemented in "traversal" package
