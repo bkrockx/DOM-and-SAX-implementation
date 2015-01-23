@@ -1,0 +1,19 @@
+<html>
+<body>
+<h2>User Details</h2>
+<table border="1">
+<tr>
+<th>UserId</th><th>FirstName</th><th>lastName</th><th>location</th>
+</tr>
+<tr>
+<td>111</td><td>Chota</td><td>Chetan</td><td>abudhabi</td>
+</tr>
+<tr>
+<td>112</td><td>Daud</td><td>Ibrahim</td><td>Abudhabi</td>
+</tr>
+<tr>
+<td>113</td><td>Sanjay</td><td>Dutt</td><td>Pune</td>
+</tr>
+</table>
+</body>
+</html>

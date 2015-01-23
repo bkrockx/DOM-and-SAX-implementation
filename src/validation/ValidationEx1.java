@@ -1,6 +1,7 @@
 package validation;
 
 import java.io.IOException;
+
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.SAXParser;
@@ -30,9 +31,9 @@ public class ValidationEx1 {
 			
 			builder.setErrorHandler(new ErrorHandler(){
 				
-				public void warning(SAXParseException e) throws SAXException{
-					System.out.println("WARNING : " + e.getMessage());
-				}
+			public void warning(SAXParseException e) throws SAXException{
+				System.out.println("WARNING : " + e.getMessage());
+			}
 				
 				public void error(SAXParseException e) throws SAXException {
 		              System.out.println("ERROR : " + e.getMessage());

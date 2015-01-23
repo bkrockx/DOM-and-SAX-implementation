@@ -20,7 +20,6 @@ public class XsdValidation {
 	public static void main(String[] args){
 		boolean result = validateXmlSchema("User.xsd","User.xml");
 		System.out.println("User.xml validates against User.xsd? "+ result);
-
 	}
 	
 	public static boolean validateXmlSchema(String xsd,String xml){
