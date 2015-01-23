@@ -12,3 +12,9 @@ xml parsing using DOM and SAX implementation
 # update 2:->
 
 -> validation of xml against xsd has been added in validation package. Implementation code is in "XsdValidation.java" class.
+
+# update 3:->
+
+-> XSL implementation has been added. User.xsl has been created and code for trasformation has been added.
+
+-> Implementation of xml traversing using XPath has been done.
